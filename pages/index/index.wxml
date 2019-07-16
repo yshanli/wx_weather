@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="forcastContainer">
+    <view class="current">{{weather.temperature.data}}℃ {{weather.weather.data}}</view>
+    <view class="reminder">下雨带伞</view>
+    <view class="rainingInfo">您东北11公里正在下雨哦</view>
+    <view class="forcast">多云，明天凌晨4点钟后转阴，其后多云</view>
+    <view class="alertInfo">暂无预警信息</view>
+    <view class="locationInfo">{{address}}</view>
+  </view> 
+  <view class="mapContainer">
+  <map id="map" longitude="{{userLocation.longitude}}" latitude="{{userLocation.latitude}}" scale="14" 
+      show-location style="width: 100%; height: 300px;"></map>
+  </view>
+  <view class="sharingContainer">
+    <text class="invatingInfo">感觉不错？和好友一起关注天气吧!</text>
+    <button class="sharingBtn" bindtap="showSharingMenu" open-type="share">分享好友</button>
+  </view>
+  <view class="authorInfo">YSL demo</view>
+</view>

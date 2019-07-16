@@ -1,0 +1,57 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 30rpx;
+  padding: 30rpx;
+}
+.forcastContainer{
+  background-color: #ffffff;
+  padding: 50rpx 40rpx 30rpx 40rpx;
+}
+.current {
+  font-size: 30rpx;
+  text-align: right;
+}
+.reminder {
+  font-size: 60rpx;
+  text-align: right;
+  margin: 60rpx;
+  font-weight: 200;
+}
+.rainingInfo{
+  font-size: 35rpx;
+  font-weight: 600;
+  margin: 15rpx 0;
+}
+
+.forcast, .alertInfo, .locationInfo {
+  margin: 15rpx 0;
+  font-size: 25rpx;
+  font-weight: 200;
+}
+.mapContainer{
+  margin: 30rpx 0;
+}
+.sharingContainer{
+  background-color: #ffffff;
+  padding: 10rpx 40rpx;
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.invatingInfo{
+  width: 70%;
+  display: flex;
+}
+.sharingBtn{
+  font-size: 25rpx;
+  background-color: blueviolet;
+}
+.authorInfo{
+  margin-top: 20rpx;
+  text-align: center;
+}
